@@ -7,7 +7,7 @@ class RouteTile extends React.Component {
     }
     render(){
         return(
-            <div className="RouteTile">
+            <div className="RouteTile button">
                 {this.props.routeName}
                 <Stop stopName="Stop1"/>
                 <Stop stopName="Stop2"/>

@@ -11,35 +11,32 @@
 }
 
 .button {
-  background-color: green;
-  border: none;
   outline: 0;
-
-  color: white;
-
-  text-align: center;
   text-decoration: none;
   font-size: 16px;
-
   padding: 0px;
   margin: auto;
   display: inline-block;
 }
 
-.button:hover {
+.circle-button:hover {
   background-color: darkgreen;
 }
 
-.button:active {
+.circle-button:active {
   background-color: black;
 }
 
 .circle-button{
-  border-radius: 100%;
+  background-color: green;
   width: 70px;
   height: 70px;
+  border-radius: 100%;
 
+  text-align: center;
+  color: white;
   font-size: 30px;
+
 }
 
 .RoutesButton{
@@ -83,13 +80,13 @@
 }
 
 .Stop {
-  padding: 2pt 12pt 2pt 10pt;
-  height: 100%;
   background-color: dimgray;
+  padding: 2pt 12pt 2pt 10pt;
+  height: auto;
+
+  overflow: hidden;
   text-align: left;
-
   font-size: 15px;
-
 }
 .RoutesMenu.slideout {
   margin-left: 0px;
