@@ -9,7 +9,7 @@ class RoutesMenu extends React.Component {
         return (
             <div id="RoutesMenu" className="RoutesMenu">
                 <RoutesButton/>
-                <h3>List Of Routes <FontAwesomeIcon icon={faBus}/> </h3>
+                <h3>List Of Routes</h3>
                 <RouteTile routeName="DP - Discovery Park"/>
                 <RouteTile routeName="NT - North Texan"/>
                 <RouteTile routeName="EP - Eagle Point"/>
