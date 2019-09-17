@@ -8,7 +8,7 @@ class RoutesMenu extends React.Component {
     }
     render(){
         return (
-            <div className="RoutesMenu">
+            <div id="RoutesMenu" className="RoutesMenu">
                 <RoutesButton/>
                 List of Routes
             </div>

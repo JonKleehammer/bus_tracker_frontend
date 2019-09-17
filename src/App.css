@@ -70,7 +70,7 @@
 }
 
 .RoutesButton{
-  position: fixed;
+  position: absolute;
   background-color: rgba(0, 0, 0, 0);
   padding: 20px;
   top: 0;
@@ -86,12 +86,18 @@
 }
 
 .RoutesMenu {
-  position: fixed;
   z-index: 100 !important;
+  position: fixed;
+  margin-left: -250px;
+  transition: margin-left 0.5s;
 
   height:100vh;
   width: 250px;
   background-color: red;
+}
+
+.RoutesMenu.slideout {
+  margin-left: 0px;
 }
 
 @keyframes App-logo-spin {
