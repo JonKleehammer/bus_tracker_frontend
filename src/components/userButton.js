@@ -1,5 +1,5 @@
 import React from 'react';
-import {faCoffee, faUser} from "@fortawesome/free-solid-svg-icons";
+import {faUser} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 class UserButton extends React.Component {
