@@ -1,7 +1,7 @@
 .App {
   height: 100vh;
   width: 100vw;
-  background: darkslategrey;
+  background: beige;
 
   align-items: center;
 
@@ -9,35 +9,6 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: blue;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-.MenuBar {
-  position: fixed;
-  background-color: rgba(0, 0, 0, 0);
-  padding: 1px;
-}
-
-
 
 .button {
   background-color: green;
@@ -67,6 +38,8 @@
   border-radius: 100%;
   width: 70px;
   height: 70px;
+
+  font-size: 30px;
 }
 
 .RoutesButton{
@@ -90,21 +63,15 @@
   position: fixed;
   margin-left: -250px;
   transition: margin-left 0.5s;
-
   height:100vh;
   width: 250px;
-  background-color: red;
+
+  background-color: beige;
+  outline: 5px solid green;
+
+  color: black;
 }
 
 .RoutesMenu.slideout {
   margin-left: 0px;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

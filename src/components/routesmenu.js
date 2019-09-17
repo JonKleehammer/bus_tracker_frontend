@@ -2,15 +2,12 @@ import React from 'react';
 import RoutesButton from './routesbutton.js'
 
 class RoutesMenu extends React.Component {
-    constructor(props) {
-        super(props)
-        this.state = { visibility: false }
-    }
     render(){
         return (
             <div id="RoutesMenu" className="RoutesMenu">
                 <RoutesButton/>
-                List of Routes
+                <h3>List Of Routes</h3>
+
             </div>
         );
     }

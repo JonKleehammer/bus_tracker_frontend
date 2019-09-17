@@ -1,4 +1,6 @@
 import React from 'react';
+import {faBars, faUser} from "@fortawesome/free-solid-svg-icons";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 class RoutesButton extends React.Component {
     handleClick() {
@@ -9,7 +11,10 @@ class RoutesButton extends React.Component {
     return (
         <div className="RoutesButton">
           <button   className="button circle-button"
-                    onClick={() => this.handleClick()}>routes</button>
+                    onClick={() => this.handleClick()}>
+              <FontAwesomeIcon icon={faBars} />
+          </button>
+
         </div>
     );
   }

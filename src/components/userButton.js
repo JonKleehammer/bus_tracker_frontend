@@ -1,4 +1,6 @@
 import React from 'react';
+import {faCoffee, faUser} from "@fortawesome/free-solid-svg-icons";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 class UserButton extends React.Component {
     render() {
@@ -7,7 +9,7 @@ class UserButton extends React.Component {
               <button
                       className="button circle-button"
                       onMouseDown={this.props.handleMouseDown}>
-                  user
+                  <FontAwesomeIcon icon={faUser} />
               </button>
             </div>
         );
