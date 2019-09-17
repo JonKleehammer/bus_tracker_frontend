@@ -1,14 +1,21 @@
 import React from 'react';
 import logo from './logo.svg';
+import RoutesButton from './components/routesbutton.js'
+import UserButton from './components/userButton.js'
+
 import './App.css';
+
 
 function App() {
   return (
     <div className="App">
+      <RoutesButton/>
+      <UserButton/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to HELLO WORLD.
+          Edit <code>src/App.js</code> and save to HELLO WORLD.<br/>
+          test2
         </p>
         <a
           className="App-link"
