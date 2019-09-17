@@ -3,8 +3,8 @@ import React from 'react';
 class UserButton extends React.Component {
   render() {
     return (
-        <div className="RoutesButton">
-          <button className="button circle-button">routes</button>
+        <div className="UserButton">
+          <button className="button circle-button">user</button>
         </div>
     );
   }
