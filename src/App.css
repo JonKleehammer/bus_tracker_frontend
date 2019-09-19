@@ -17,6 +17,8 @@
   padding: 0px;
   margin: auto;
   display: inline-block;
+
+  cursor: pointer;
 }
 
 .circle-button:hover {
@@ -70,24 +72,35 @@
   color: black;
 }
 
+.RoutesMenu.slideout {
+  margin-left: 0px;
+}
 
 .RouteTile {
+  width: 200px;
   margin: 10px;
   padding: 10px;
   background-color: gray;
-
   border-radius: 5px;
+
+  text-align: left;
 }
 
 .Stop {
-  background-color: dimgray;
-  padding: 2pt 12pt 2pt 10pt;
-  height: auto;
+  /*background-color: dimgray;*/
+  padding: 0;
+  max-height: 0;
+  transition: max-height 0.5s;
 
   overflow: hidden;
   text-align: left;
   font-size: 15px;
 }
-.RoutesMenu.slideout {
-  margin-left: 0px;
+
+.Stop.expand {
+  max-height: 500px;
+}
+
+.stopElement {
+  margin: 0;
 }
